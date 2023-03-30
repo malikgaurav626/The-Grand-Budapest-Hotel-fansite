@@ -1,0 +1,406 @@
+@font-face {
+    font-family: Hideout-regular;
+    src: url(fonts/Hideout/Hideout\ Condensed\ Regular.otf);
+}
+@font-face {
+    font-family: Hideout-light;
+    src: url(fonts/Hideout/Hideout\ Condensed\ Light.otf);
+}
+@font-face {
+    font-family: Hideout-black;
+    src: url(fonts/Hideout/Hideout\ Condensed\ Black.otf);
+}
+@font-face {
+    font-family: Hideout-bold;
+    src: url(fonts/Hideout/Hideout\ Condensed\ Bold.otf);
+}
+@font-face {
+    font-family: Hideout-extrabold;
+    src: url(fonts/Hideout/Hideout\ Condensed\ ExtraBold.otf);
+}
+@font-face {
+    font-family: Hideout-semi;
+    src: url(fonts/Hideout/Hideout\ Condensed\ Semi\ Bold.otf);
+}
+@font-face {
+    font-family: Hideout-extrabold2;
+    src: url(fonts/Hideout/Hideout\ ExtraBold.otf);
+}
+@font-face {
+    font-family: Hideout-black-ghost;
+    src: url(fonts/Hideout/Hideout\ Ghost\ Condensed\ Black.otf);
+}
+@font-face {
+    font-family: Hideout-bold-ghost;
+    src: url(fonts/Hideout/Hideout\ Ghost\ Condensed\ Bold.otf);
+}
+@font-face {
+    font-family: Hideout-light-ori;
+    src: url(fonts/Hideout/Hideout\ Light.otf);
+}
+@font-face {
+    font-family: Hideout-regular-ori;
+    src: url(fonts/Hideout/Hideout\ Regular.otf);
+}
+@font-face {
+    font-family: Hideout-bold-ori;
+    src: url(fonts/Hideout/Hideout\ Bold.otf);
+}
+#body-id{
+    margin: 0;
+}
+::selection{
+    color: white;
+    background-color: rgb(240, 108, 75);
+    text-shadow: 1px 1px 1px black;
+}
+/* navbaricon */
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,0,0, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
+  
+  .custom-toggler.navbar-toggler {
+    border-color: rgb(0,0,0);
+  } 
+
+
+/* backdrops */
+
+.backdrops{
+    border-top: 5px solid rgb(255, 255, 255);
+    margin: 0;
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+}
+
+/* rows */
+.rows{
+    scale: 0.95;
+}
+
+/* subscripts */
+.subscripts{
+    padding:5% 18%;
+    padding:5% 18%;
+    text-shadow: 1px 1px 2px rgb(240, 108, 75);
+}
+
+/* main heading */
+.heading-main{
+    padding-top: 15%;
+}
+
+
+/* font levels */
+.level-1{
+    font-family: Hideout-light;
+    font-size: x-large;
+    color: white;
+    text-shadow: 1px 1px 2px rgb(240, 108, 75);
+}
+.level-1_1{
+    font-family: Hideout-light;
+    font-size: large;
+    color: white;
+    text-shadow: 1px 1px 2px rgb(240, 108, 75);
+}
+.level-1_2{
+    font-family: Hideout-light;
+    font-size: xx-large;
+    color: white;
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+}
+.level-2{
+    font-family: Hideout-regular;
+    font-size: 87px;
+    /* font-size:550%; */
+    color: white;
+    text-shadow: 3px 3px 2px rgb(240, 108, 75);
+    /* text-shadow: 1px 1px 2px black,0px 0px 6px black; */
+}
+.level-3{
+    font-family: Hideout-bold;
+    font-size: xx-large;
+    color: white;
+    text-shadow: 1px 1px rgb(0, 0, 0);
+}
+.level-3_1{
+    font-family: Hideout-bold;
+    font-size: 60px;
+    color: white;
+    text-shadow: 1px 1px 2px rgb(240, 108, 75);
+}
+
+
+/* navbar section */
+
+
+#hotel-backdrop{
+    margin: 0;
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+}
+#navbar-id{
+    margin:0% 9%;
+    padding-top: 3%;
+}
+#link-items{
+    color: white;
+    text-shadow: 1px 1px 2px rgb(240, 108, 75);
+}
+#link-items:hover{
+    color: rgb(240, 108, 75);
+    text-shadow: 1px 1px 1px rgb(255, 255, 255);
+}
+
+    /* main heading section */
+
+#main{
+    margin: 0;
+    margin:5% 9%;
+    text-align: center;
+}
+#subscript-main-id{
+    padding:5% 18%;
+    text-shadow: 1px 1px 2px rgb(240, 108, 75);
+}
+#roombooking-row{
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+#roombooking-row{
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    box-shadow: 1px 1px 0px 2px rgb(240, 108, 75);
+}
+#right-roombooking-heading-button{
+    background-color: rgb(240, 108, 75);
+    color: white;
+    border-color: rgb(240, 108, 75);
+    border-radius: 1px;
+}
+#right-roombooking-heading-button:hover{
+    background-color: white;
+    color: rgb(240, 108, 75);
+    border-color: white;
+    box-shadow: 1px 1px 0px 2px rgb(240, 108, 75);
+    border-radius: 1px;
+}
+
+/* border section */
+
+#border-id-1{
+    margin: 1.5% 0%;
+    width: 35%;
+}
+
+/* rooms section*/
+
+
+#rooms-backdrop
+{
+    margin-top: 7px;
+}
+#rooms-main-heading-id{
+    padding-top: 15%;
+}
+
+#subscript-rooms-id{
+    padding:5% 18%;
+}
+
+
+
+/* dining section */
+
+
+#dining-backdrop{
+    margin-top: 7px;
+}
+#dining-main-heading-id{
+    padding-bottom: 5%;
+}
+#dining-main-id{
+    padding-top: 9%;
+}
+#subscript-dining-id{
+    padding:5% 18%;
+}
+
+
+/* services section */
+
+#services-backdrop{
+    margin-top: 7px;
+}
+#subscript-services-id{
+    padding:9% 10%;
+}
+#services-main-heading-id{
+    padding-top: 25%;
+    padding-bottom: 4%;
+}
+
+
+/* local attractions */
+.local-attractions{
+    margin-bottom: 200px;
+}
+#main-heading-container{
+    padding-top: 1%;
+}
+#local-main-heading-id{
+    padding-top: 4%;
+}
+#local-subscripts-id{
+    padding: 9% 2%;
+}
+#rightmost{
+    color: black;
+    text-shadow: 1px 1px white;
+}
+#midleft{
+    text-shadow: 1px 1px rgb(240, 108, 75);
+}
+
+
+/* book ur stay */
+#bookurstay-heading-id{
+    padding-top: 7%;
+}
+#deluxe-row{
+    scale: 0.95;
+}
+#deluxe-card-id{
+    border-radius: 3px;
+    background: none;
+    border: 1px solid white;
+}
+#deluxe-card-heading-id{
+    border-bottom: 1px solid white;
+    background-color: rgb(240, 108, 75);
+}
+#deluxe-card-body-id{
+    color: white;
+    text-shadow: 1px 1px rgb(240, 108, 75);
+}
+#deluxe-room-button{
+    background-color: white;
+    color: rgb(240, 108, 75);
+    border-color: white;
+    border-radius: 1px;
+}
+#deluxe-room-button:hover{
+    background-color: rgb(240, 108, 75);
+    color: white;
+    border-color: rgb(240, 108, 75);
+    box-shadow: 1px 1px 0px 2px white;
+    border-radius: 1px;
+}
+#junior-suite-card-id{
+    border-radius: 3px;
+    background: none;
+    border: 1px solid black;
+}
+#junior-suite-card-heading-id{
+    border-bottom: 1px solid black;
+    background-color: white;
+    color: rgb(240, 108, 75);
+    text-shadow: 1px 1px black;
+    /* background-color: rgb(240, 108, 75); */
+}
+#junior-suite-card-body-id{
+    color: rgb(240, 108, 75);
+    background-color: white;
+    text-shadow: 1px 1px black;
+    border-bottom: none;
+}
+#junior-suite-footer-id{
+    border-top: none;
+    background-color: white;
+}
+#junior-suite-room-button{
+    background-color: rgb(240, 108, 75);
+    color: white;
+    border-color: rgb(240, 108, 75);
+    border-radius: 1px;
+}
+#junior-suite-room-button:hover{
+    background-color: white;
+    color: rgb(240, 108, 75);
+    border-color: white;
+    box-shadow: 1px 1px 0px 2px rgb(240, 108, 75);
+    border-radius: 1px;
+}
+#presidential-suite-card-id{
+    border-radius: 3px;
+    background: none;
+    border: 1px solid black;
+}
+#presidential-suite-card-id::selection{
+    background-color: #6101F5;
+    color: white;
+    text-shadow: 1px 1px black;
+}
+#presidential-suite-card-heading-id{
+    border-bottom: 1px solid black;
+    background-color: white;
+    color: #6101F5;
+    text-shadow: 1px 1px rgb(240, 108, 75);
+    /* background-color: rgb(240, 108, 75); */
+}
+#presidential-suite-card-body-id{
+    display: block;
+    color: #6101F5;
+    background-color: white;
+    text-shadow: 1px 1px rgb(240, 108, 75);
+    border-bottom: none;
+}
+#presidential-suite-card-body-id-2{
+    display: none;
+    color: #6101F5;
+    background-color: white;
+    text-shadow: 1px 1px rgb(240, 108, 75);
+    border-bottom: none;
+}
+#presidential-suite-footer-id{
+    border-top: none;
+    background-color: white;
+}
+#presidential-suite-room-button{
+    background-color: #6101F5;
+    color: white;
+    border-color: #6101F5;
+    border-radius: 1px;
+}
+#presidential-suite-room-button:hover{
+    background-color: white;
+    color: #6101F5;
+    border-color: white;
+    box-shadow: 1px 1px 0px 2px #6101F5;
+    border-radius: 1px;
+}
+
+
+/* contact us */
+
+#contact-heading-main-id{
+    padding-top: 5%;
+}
+.icon{
+    width: 25px;
+}
+
+/* footer */
+.contact{
+    position: relative;
+}
+#body-footer{
+    text-align: center;
+}
+#bottom-row{
+    padding-top: 170px;
+}
+
